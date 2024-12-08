@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img [src]="srcLogo()" alt="GYM Logo" width="100" height="100" class="img-fluid">
+            <h1 class="display-4 mx-5">{{ title() }}</h1>
+        </a>
+        <ul class="navbar-nav mx-3">
+            <li class="nav-item">
+                <button class="btn btn-primary" (click)="irALaLista()">Ver Actividades</button>
+            </li>
+        </ul>
+
+    </div>  
+</nav>
